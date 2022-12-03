@@ -1,1 +1,5 @@
-Write-Host "Hello world"
+$filePath = $args[0]
+
+Get-FileHash $filePath *
+
+Get-ChildItem * | select Name, CreationTime, LastAccessTime, LastWriteTime
