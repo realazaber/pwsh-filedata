@@ -1,2 +1,4 @@
-# pwsh-filedata
-Powershell script to get the hash, date created, date modified and date accessed value from all files in a directory and export to csv.
+# How to use
+Open powershell as Administrator
+Run script and add file path as parameter.
+Open main.csv to see results.
